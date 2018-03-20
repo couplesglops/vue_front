@@ -12,7 +12,7 @@ module.exports = {
         vendors: './src/vendors'
     },
     output: {
-        path: path.join(__dirname, '../../cordova/wgj_app/www/dist/')
+        path: path.join(__dirname, './dist/assets')
     },
     module: {
         rules: [{
