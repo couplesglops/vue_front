@@ -336,8 +336,7 @@ export default {
   created() {
     this.unqid = lodash.random(100000, 999990);
     this.room = lodash.random(100, 999);
-    this.socket = io("http://localhost:3000");
-
+    this.socket = io("http://xxl_node_ned.s202.psd1412.com:80");
     this.socket.on("message", msg => {
       this.receive(msg);
     });
